@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" href="./img/icono.png">
+    <title>Pokemon</title>
+</head>
+<body>
+    <video muted autoplay loop>
+        <source src="./video/fondo-pantalla1.mp4" type="video/mp4">
+     </video>
+
+    <div style =  "text-align: center; padding: 20px;">
+    
+    <button id="searchButton">¡Yo te elijo!</button>
+</div>
+
+    <!--AQUI SE MOSTRARA LA INFORMACION DEL POKEMON -->
+
+    
+    <div data-poke-card class="poke-card">
+        <div data-poke-name>¡Mostrar mi pokemon favorito! </div>
+        
+        <div data-poke-img-container class="img-container">
+            <img data-poke-img class="poke-img" src="./img/pokebola.png"/>
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+
+        
+
+
+ <script src="js/script.js"></script>
+</body>
+</html>
